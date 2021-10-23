@@ -5,8 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.view.Gravity;
-import android.view.View;
+
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -125,7 +124,6 @@ public class MainActivity extends AppCompatActivity {
         eredmeny = findViewById(R.id.eredmeny);
         felhasznaloKep = findViewById(R.id.felhasznaloKep);
         random = new Random();
-        customToast = new Toast(getApplicationContext());
         CreateCustomToast();
         alertBuilder = new AlertDialog.Builder(this);
         CreateAlertDialog();
